@@ -2,7 +2,7 @@
 
 pipeline{
 
-    agent {label "tyson"}
+    agent any
 
     environment{
         SONAR_HOME= tool "sonar"
